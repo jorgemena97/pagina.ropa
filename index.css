@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+section {
+    background-image: url(fondo/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+
+
+
+
+
+}
+
+
+
+
+.foto2 {
+    text-align: center;
+    margin-top: -25px;
+    color: white;
+}
+
+.tituloo1 {
+    color: white;
+    margin-top: 7px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.backgram1 {
+
+    background-color: black(173, 202, 10);
+    padding: 10px;
+}
+
+.fotin1 {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+
+
+}
+
+header {
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.subtitulo {
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 80px;
+    width: 550px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.subtitulo span
+{
+margin-bottom: 200px;
+
+}
+
+.subtituloo {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(12, 12, 12);
+
+    padding-top: 20px;
+
+
+}
+
+.hombre {
+    color: black;
+    font-size: 30px;
+
+    background: white;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 70px;
+
+    text-decoration: none;
+
+
+}
+
+.boton1 {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.boton2 {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 270px;
+}
+
+.mujer {
+    color: black;
+    font-size: 30px;
+
+    background: white;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 80px;
+
+    text-decoration: none;
+
+}
+
+
+.facebook {
+    display: flex;
+
+    justify-content: left;
+
+}
+
+@media screen and (max-width: 768px) {
+    .foto2 {
+        flex-direction: column;
+    }
+
+    .fotin1 {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .subtituloo {
+        padding: 10px;
+    }
+
+    .hombre,
+    .mujer {
+        padding: 8px 16px;
+    }
+}
