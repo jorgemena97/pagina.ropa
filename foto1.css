@@ -96,7 +96,7 @@ header {
 
 section {
     background-color: rgb(105, 6, 6);
-    height: 115vh;
+    height: 125vh;
     padding-top: 180px;
 }
 
@@ -111,8 +111,8 @@ section {
 
 .facebook img {
 
-    padding: 20px;
-    width: 110px;
+    padding: 10px;
+    width: 80px;
 
 
 
