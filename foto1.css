@@ -4,16 +4,16 @@
 }
 
 .platon {
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     margin-left: 5px;
     border: 5px solid black;
     margin-top: 10px;
 }
 
 .socrate_foto {
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     margin-left: 5px;
     border: 5px solid black;
     margin-top: 10px;
@@ -26,7 +26,7 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
     justify-items: center;
-
+    margin-top: 10px;
 
 }
 
@@ -93,14 +93,16 @@ header {
 
 section {
     background-color: rgb(105, 6, 6);
-
-    padding-top: 150px;
+    height: 115vh;
+    padding-top: 180px;
 }
 
 .facebook {
     display: flex;
-
+    padding: 15px;
+    width: 90px;
     justify-content: left;
+
 
 }
 
